@@ -26,9 +26,11 @@ public class Ejemplo3 {
         
         System.out.println("Ingresar limite de notas");
         limiteNotas = entrada.nextDouble();
-        System.out.println("Ingrese el promedio");
         
+        
+        System.out.println("Ingrese el promedio");
         promedio = entrada.nextDouble();
+        
         if (promedio >= limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
