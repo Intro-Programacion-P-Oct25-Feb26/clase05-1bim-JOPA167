@@ -1,4 +1,4 @@
-/*
+/*"
  * Realizar un programa en java que permita determinar
  * si un estudiante ha pasado el ciclo
  * se ingresa el promedio del estudiante
@@ -15,17 +15,20 @@ import java.util.Locale;
  *
  * @author reroes
  */
-public class Ejemplo1 {
+public class Ejemplo3 {
 
     public static void main(String[] args) {
         // Condicionales simplesmain
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         double promedio;
-        double limiteNotas = 6.9;
+        double limiteNotas;
+        
+        System.out.println("Ingresar limite de notas");
+        limiteNotas = entrada.nextDouble();
         System.out.println("Ingrese el promedio");
+        
         promedio = entrada.nextDouble();
-
         if (promedio >= limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
