@@ -16,7 +16,7 @@ public class Ejemplo7 {
         // 
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        System.out.println("Ingrese su placa");
+        System.out.println("Ingrese su placa vehicular");
         String ciudad = entrada.nextLine();
 
         // L    0
