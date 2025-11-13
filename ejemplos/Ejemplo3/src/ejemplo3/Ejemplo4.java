@@ -42,7 +42,8 @@ public class Ejemplo4 {
                     System.out.printf("Estudiante reprobado con un "
                             + "promedio: %.2f\n", promedio);
                     }else{
-                        System.out.printf("La Nota %.2f esta fuera de rango",promedio);
+                        System.out.printf("La Nota %.2f esta fuera de rango y es"
+                                + "positiva",promedio);
                     }
                 }
             }
